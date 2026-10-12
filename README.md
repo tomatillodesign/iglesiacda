@@ -17,7 +17,7 @@ replaces the WP Engine site. No giving details on purpose (spam).
 - [x] GitHub repo created, Pages on (main, `/`): https://tomatillodesign.github.io/iglesiacda/
 - [ ] Domain verified in GitHub account settings (TXT at Hover)
 - [ ] Hover DNS: apex A → 185.199.108.153 / .109.153 / .110.153 / .111.153
-      (replacing WPE 141.193.213.10/.11); `www` CNAME → `<user>.github.io`.
+      (replacing WPE 141.193.213.10/.11); `www` CNAME → `tomatillodesign.github.io`.
       **Leave MX alone** (mx.hover.com.cust.hostedemail.com).
 - [ ] Set custom domain `iglesiacda.org` (adds `CNAME`)
 - [ ] Enforce HTTPS once the cert issues; check apex + www
