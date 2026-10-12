@@ -14,10 +14,10 @@ replaces the WP Engine site. No giving details on purpose (spam).
 - [x] Page built and checked locally (desktop + phone)
 - [x] GitHub repo created, Pages on (main, `/`): https://tomatillodesign.github.io/iglesiacda/
 - [x] Domain verified in GitHub account settings (TXT at Hover)
-- [ ] Hover DNS: apex A → 185.199.108.153 / .109.153 / .110.153 / .111.153
-      (replacing WPE 141.193.213.10/.11); `www` CNAME → `tomatillodesign.github.io`.
+- [x] Hover DNS: apex A → 185.199.108.153 / .109.153 / .110.153 / .111.153
+      (replacing WPE 141.193.213.10/.11); wildcard `*` A deleted; `www` CNAME → `tomatillodesign.github.io`.
       **Leave MX alone** (mx.hover.com.cust.hostedemail.com).
 - [x] Set custom domain `iglesiacda.org` (adds `CNAME`)
-- [ ] Enforce HTTPS once the cert issues; check apex + www
+- [x] Enforce HTTPS (cert approved after removing/re-adding the custom domain; Let's Encrypt, auto-renews); apex + www checked 2026-10-12
 - [ ] Final WPE backup for the client, then remove domain from WPE and retire the install
 - [ ] Before 2027-05-22: offer the client a domain transfer, or turn off auto-renew
