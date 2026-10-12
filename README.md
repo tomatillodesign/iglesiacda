@@ -19,5 +19,5 @@ replaces the WP Engine site. No giving details on purpose (spam).
       **Leave MX alone** (mx.hover.com.cust.hostedemail.com).
 - [x] Set custom domain `iglesiacda.org` (adds `CNAME`)
 - [x] Enforce HTTPS (cert approved after removing/re-adding the custom domain; Let's Encrypt, auto-renews); apex + www checked 2026-10-12
-- [ ] Final WPE backup for the client, then remove domain from WPE and retire the install
+- [ ] Someday (not urgent): the old site is one subsite of a WPE **multisite**; clean it up (backup for client, remove subsite/domain) when convenient
 - [ ] Before 2027-05-22: offer the client a domain transfer, or turn off auto-renew
